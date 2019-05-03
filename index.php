@@ -20,21 +20,21 @@
         </ul>
                 <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">            Dropdown on Right</a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LINK</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                   <a class="dropdown-item" href="#">Action</a>
                                   <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
                                 </div>
                               </li>
                               <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">            Dropdown on Right</a>
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INFO</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                       <a class="dropdown-item" href="#">Action</a>
                                       <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
                                     </div>
                                   </li>  
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">            Dropdown on Right</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FLASK</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
@@ -77,13 +77,16 @@
  
 
 <script type="text/javascript">
-    var LHCChatboxOptions = {hashchatbox:'<?php echo sha1('ae254328e'.sha1('ae254328e'.'rozan1'))?>',identifier:'rozan1',status_text:'Chatbox'};
-    (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'http://localhost/lhc_web/index.php/chatbox/getstatus/(position)/bottom_right/(top)/300/(units)/pixels/(width)/300/(height)/300/(chat_height)/220';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-    </script>    
+var LHCChatOptions = {};
+LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
+var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+po.src = '//fikrirazor.livehelperchat.com/eng/chat/getstatus/(click)/internal/(position)/middle_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/2?r='+referrer+'&l='+location;
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
     
 </body>
 </html>
